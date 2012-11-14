@@ -4,6 +4,17 @@ jquery-fbDialog
 Simple jQuery plug-in for creating Facebook Dialogs using Facebook JS SDK
 
 ### Usage:
+
+Handles fb dialog links by taking their data attributes as fb parameters
+
+```
+  @param selector string   Optional (or null / false) The selector on which to add the binding
+  @param callback function Optional callback function called by FB.ui when complete (takes one parameter)
+  @param method   string   Optional method for the FB.ui call (overrides data-method attribute)
+    
+  @return {Boolean}
+```
+
 ```
   $(document||selector).fbDialog(selector, callback(response), method);
 ```
