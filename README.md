@@ -30,7 +30,8 @@ Handles fb dialog links by taking their data attributes as fb parameters
  <a class="btn feed-post-dialog"
     data-method="something-incorrect" <!-- replaced by method parameter because it's wrong -->
     data-link="http://google.com"
-    data-picture="https://reward-zone.nerderylabs.com/assets/images/logo.png?nocache=1350490492"
+    data-picture="http://nerdery.com/assets/layout/logo_nerdery.png"
     data-name="This is the name parameter"
     data-caption="This is the caption parameter"
-    data-description="This is the description parameter">Feed Post Dialog</a>```
+    data-description="This is the description parameter">Feed Post Dialog</a>
+    ```
