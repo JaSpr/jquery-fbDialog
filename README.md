@@ -34,4 +34,4 @@ Handles fb dialog links by taking their data attributes as fb parameters
     data-name="This is the name parameter"
     data-caption="This is the caption parameter"
     data-description="This is the description parameter">Feed Post Dialog</a>
-    ```
+```
